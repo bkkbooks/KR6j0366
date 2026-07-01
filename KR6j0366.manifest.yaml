@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6j0366/v1
+canonical_location: https://kanripo.org/bkk/KR6j0366/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 五大虛空藏菩薩速疾大神驗祕密式經
+  identifiers:
+    alt_id:
+    - T20n1149
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1149.xml
+    old_id: T20n1149
+  edition:
+    short: bkk
+editions:
+- short: 原
+  label: 原
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0366_000.yaml, hash: 'sha256:9ee25ed83f03b6c94fa960923e812ef726659539a1f312075f555fec6becde06'}
+  - {seq: 1, filename: KR6j0366_001.yaml, hash: 'sha256:a4b8fcec34b34532ab5a934537e5b967612c58b4a54ffa32b8ec5f0027acead2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0366_001.markers.yaml, hash: 'sha256:c7ccfd956c1335b1ebb06b0775d1b35b375ed502e3e7935e61951b618eac1163'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0366_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2500
+  label: '五大虛空藏菩薩速疾大神驗祕
+
+    密式經一卷'
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0366_T_001-mulu-1
+    span:
+    - body
+    - 611
+    - 611
+  label: 2 成就悉地品
+  type: mulu
+  level: 1
+hash: sha256:f3ddc404d1767c2d672bc016a99b30b891ce432ae55eaeeff2cfa1c4b068f628
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
