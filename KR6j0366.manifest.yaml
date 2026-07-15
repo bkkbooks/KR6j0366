@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0366/v1
 canonical_location: https://kanripo.org/bkk/KR6j0366/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 五大虛空藏菩薩速疾大神驗祕密式經
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0366_000.yaml, hash: 'sha256:9ee25ed83f03b6c94fa960923e812ef726659539a1f312075f555fec6becde06'}
-  - {seq: 1, filename: KR6j0366_001.yaml, hash: 'sha256:d630e97fa57e73bec12182dcfdec9c7ad4111d82efc0958bd6fca5401db6d7ac'}
+  - {seq: 1, filename: KR6j0366_001.yaml, hash: 'sha256:7d3bec73dbc05a6fc2e1d05d01a48d1e2638c4dfd72122f8342de0410ce58102'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0366_000.markers.yaml, hash: 'sha256:f8d7516f5b16be73dfa410b51d94b1d7578e56306c98322ad5be63ea25882a4d'}
-  - {seq: 1, role: markers, filename: assets/KR6j0366_001.markers.yaml, hash: 'sha256:1947653cd9ace59e2118fca5a3cc488733579c734e5fc44f08be46e4fd2c6822'}
+  - {seq: 1, role: markers, filename: assets/KR6j0366_001.markers.yaml, hash: 'sha256:006c8f874e811a1b57ecc5c23649f3d01a1f3bbce0282b1a9abdf38b44be3a7f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -52,4 +52,7 @@ table_of_contents:
   label: 2 成就悉地品
   type: mulu
   level: 1
-hash: sha256:58d40510c3a1ca9c4b735c71410db38af5e717e70a0b7d7b1afc069760366efd
+hash: sha256:b932944066b5b56f0b3fb5d050f8438f9cd3d7d8d4cd5959a6b3d88bc60719c6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
